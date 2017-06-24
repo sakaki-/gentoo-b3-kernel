@@ -7,7 +7,7 @@ Automated weekly build of the latest (~arm) gentoo-sources kernel for the Excito
 
 This project contains a weekly autobuild of the most recent testing (~arm) version of the [gentoo-sources](https://wiki.gentoo.org/wiki/Kernel/Overview#General_purpose:_gentoo-sources) Linux kernel, for the Excito B3 miniserver.
 
-Builds are performed based on an `oldefconfig`-updated version of [this baseline configuration](https://github.com/sakaki-/gentoo-on-b3/blob/master/configs/b3_kexec_config). A new build tarball is automatically created and uploaded as a release asset each week (unless the most recent version has not changed since the prior week, or an error occurs during the build process).
+Builds are performed based on an `oldefconfig`-updated version of [this baseline configuration](https://github.com/sakaki-/gentoo-on-b3/blob/master/configs/b3_baseline_config). A new build tarball is automatically created and uploaded as a release asset each week (unless the most recent version has not changed since the prior week, or an error occurs during the build process).
 
 Each kernel release tarball provides the following files:
 * `/boot/zImage` (this is the bootable kernel);
@@ -23,7 +23,7 @@ Variant | Version | Most Recent Image
 :--- | ---: | ---:
 Kernel, DTB, modules and (kernel) firmware | 4.11.6 | [gentoo-b3-kernel-4.11.6.tar.xz](https://github.com/sakaki-/gentoo-b3-kernel/releases/download/4.11.6/gentoo-b3-kernel-4.11.6.tar.xz)
 
-The corresponding kernel configuration (derived by running `make olddefconfig` on [this baseline configuration](https://github.com/sakaki-/gentoo-on-b3/blob/master/configs/b3_kexec_config)) may be viewed [here](https://github.com/sakaki-/gentoo-b3-kernel/blob/master/config).
+The corresponding kernel configuration (derived by running `make olddefconfig` on [this baseline configuration](https://github.com/sakaki-/gentoo-on-b3/blob/master/configs/b3_baseline_config)) may be viewed [here](https://github.com/sakaki-/gentoo-b3-kernel/blob/master/config).
 
 > A list of all releases may be seen [here](https://github.com/sakaki-/gentoo-b3-kernel/releases).
 
