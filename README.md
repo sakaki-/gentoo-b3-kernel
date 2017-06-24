@@ -52,4 +52,4 @@ b3 ~ # sync && reboot
 
 > NB: these prebuilt kernels and ebuilds are provided as a convenience only. Use at your own risk! **Given that the releases in this project are created automatically, there is no guarantee that any given kernel will boot correctly.**
 
-> NB: You **must** be working with **>= version 1.9.0** of the [gentoo-on-b3](https://github.com/sakaki-/gentoo-on-b3) image to use these kernels (since they rely on the B3 first booting an interstitial kernel to patch and kexec them (with the correct command line, DTB file and possibly initramfs), and this facility was first introduced in version 1.9.0).
+> NB: You **must** be working with **>= version 2.0.0** of the [gentoo-on-b3](https://github.com/sakaki-/gentoo-on-b3) image to use these kernels (since they rely on the B3 first booting an interstitial kernel to patch and kexec them (with the correct command line, DTB file and possibly initramfs), and this facility was first introduced in version 2.0.0).
