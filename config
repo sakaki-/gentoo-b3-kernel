@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 4.16.9-gentoo Kernel Configuration
+# Linux/arm 4.16.13-gentoo Kernel Configuration
 #
 
 #
@@ -584,7 +584,6 @@ CONFIG_CPU_FREQ_GOV_ONDEMAND=y
 # CPU frequency scaling drivers
 #
 # CONFIG_CPUFREQ_DT is not set
-# CONFIG_ARM_ARMADA_37XX_CPUFREQ is not set
 CONFIG_ARM_KIRKWOOD_CPUFREQ=y
 # CONFIG_QORIQ_CPUFREQ is not set
 
