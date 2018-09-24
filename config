@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 4.18.8-gentoo Kernel Configuration
+# Linux/arm 4.18.9-gentoo Kernel Configuration
 #
 
 #
@@ -1106,7 +1106,6 @@ CONFIG_BT_HCIUART=m
 CONFIG_BT_HCIUART_H4=y
 CONFIG_BT_HCIUART_BCSP=y
 # CONFIG_BT_HCIUART_ATH3K is not set
-# CONFIG_BT_HCIUART_3WIRE is not set
 # CONFIG_BT_HCIUART_INTEL is not set
 # CONFIG_BT_HCIUART_AG6XX is not set
 # CONFIG_BT_HCIUART_MRVL is not set
