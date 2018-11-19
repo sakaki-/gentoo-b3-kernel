@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 4.19.1-gentoo Kernel Configuration
+# Linux/arm 4.19.2-gentoo Kernel Configuration
 #
 
 #
@@ -4211,7 +4211,6 @@ CONFIG_CRYPTO_SALSA20=m
 CONFIG_CRYPTO_SEED=m
 CONFIG_CRYPTO_SERPENT=y
 # CONFIG_CRYPTO_SM4 is not set
-# CONFIG_CRYPTO_SPECK is not set
 CONFIG_CRYPTO_TEA=m
 CONFIG_CRYPTO_TWOFISH=m
 CONFIG_CRYPTO_TWOFISH_COMMON=m
