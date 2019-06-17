@@ -21,7 +21,7 @@ The current kernel tarball may be downloaded from the link below (or via `wget`,
 
 Variant | Version | Most Recent Image
 :--- | ---: | ---:
-Kernel, DTB, modules and (kernel) firmware | 5.1.7 | [gentoo-b3-kernel-5.1.7.tar.xz](https://github.com/sakaki-/gentoo-b3-kernel/releases/download/5.1.7/gentoo-b3-kernel-5.1.7.tar.xz)
+Kernel, DTB, modules and (kernel) firmware | 5.1.10 | [gentoo-b3-kernel-5.1.10.tar.xz](https://github.com/sakaki-/gentoo-b3-kernel/releases/download/5.1.10/gentoo-b3-kernel-5.1.10.tar.xz)
 
 The corresponding kernel configuration (derived by running `make olddefconfig` on [this baseline configuration](https://github.com/sakaki-/gentoo-on-b3/blob/master/configs/b3_baseline_config)) may be viewed [here](https://github.com/sakaki-/gentoo-b3-kernel/blob/master/config).
 
@@ -39,14 +39,14 @@ b3 ~ # reboot
 Or, to install a particular version (e.g.):
 ```console
 b3 ~ # emaint sync --repo gentoo-b3
-b3 ~ # emerge -av =gentoo-b3-kernel-bin-5.1.7
+b3 ~ # emerge -av =gentoo-b3-kernel-bin-5.1.10
 b3 ~ # reboot
 ```
 
 Alternatively (assuming that your B3's boot partition is mounted as `/boot`), you can simply simply download the release file, untar it directly on your B3, and reboot:
 ```console
-b3 ~ # wget -c https://github.com/sakaki-/gentoo-b3-kernel/releases/download/5.1.7/gentoo-b3-kernel-5.1.7.tar.xz
-b3 ~ # tar -xJf gentoo-b3-kernel-5.1.7.tar.xz -C /
+b3 ~ # wget -c https://github.com/sakaki-/gentoo-b3-kernel/releases/download/5.1.10/gentoo-b3-kernel-5.1.10.tar.xz
+b3 ~ # tar -xJf gentoo-b3-kernel-5.1.10.tar.xz -C /
 b3 ~ # sync && reboot
 ```
 
