@@ -7,7 +7,11 @@ Automated weekly build of the latest (~arm) gentoo-sources kernel for the Excito
 
 This project contains a weekly autobuild of the most recent testing (~arm) version of the [gentoo-sources](https://wiki.gentoo.org/wiki/Kernel/Overview#General_purpose:_gentoo-sources) Linux kernel, for the Excito B3 miniserver.
 
-Builds are performed based on an `oldefconfig`-updated version of [this baseline configuration](https://github.com/sakaki-/gentoo-on-b3/blob/master/configs/b3_baseline_config). A new build tarball is automatically created and uploaded as a release asset each week (unless the most recent version has not changed since the prior week, or an error occurs during the build process).
+Builds are performed based on an `oldefconfig`-updated version of [this baseline configuration](https://github.com/sakaki-/gentoo-on-b3/blob/master/configs/b3_baseline_config). Additional tweaks are *also* applied to the configuration before building, by running the [`conform_config.sh`](https://github.com/sakaki-/gentoo-b3-kernel/blob/master/conform_config.sh) script.
+
+> If you have changes you'd like to apply to the kernel config used by this project, please submit a PR targeting the [`conform_config.sh`](https://github.com/sakaki-/gentoo-b3-kernel/blob/master/conform_config.sh) script. Changes should target the *end* of the script. Only edits which use the bundled convenience functions `set_kernel_config` and (rarely) `unset_kernel_config` will be considered for merging. Modularization is prefered wherever possible. Please include a short comment describing the changes, ideally including a link or bug ID.
+
+A new build tarball is automatically created and uploaded as a release asset each week (unless the most recent version has not changed since the prior week, or an error occurs during the build process).
 
 Each kernel release tarball provides the following files:
 * `/boot/zImage` (this is the bootable kernel);
