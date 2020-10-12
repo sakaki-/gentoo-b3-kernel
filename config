@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 5.8.7-gentoo Kernel Configuration
+# Linux/arm 5.8.14-gentoo Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="armv5tel-softfloat-linux-gnueabi-gcc (Gentoo 9.3.0-r1 p3) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -3323,6 +3323,7 @@ CONFIG_MEDIA_ATTACH=y
 # Camera sensor devices
 #
 # CONFIG_VIDEO_HI556 is not set
+# CONFIG_VIDEO_IMX214 is not set
 # CONFIG_VIDEO_IMX219 is not set
 # CONFIG_VIDEO_IMX258 is not set
 # CONFIG_VIDEO_IMX274 is not set
