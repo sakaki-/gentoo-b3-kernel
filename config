@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 5.10.10-gentoo Kernel Configuration
+# Linux/arm 5.10.12-gentoo Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="armv5tel-softfloat-linux-gnueabi-gcc (Gentoo 9.3.0-r1 p3) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -2709,6 +2709,7 @@ CONFIG_GPIO_CDEV_V1=y
 # CONFIG_GPIO_MB86S7X is not set
 # CONFIG_GPIO_MPC8XXX is not set
 CONFIG_GPIO_MVEBU=y
+# CONFIG_GPIO_SIFIVE is not set
 # CONFIG_GPIO_XILINX is not set
 # CONFIG_GPIO_ZEVIO is not set
 # CONFIG_GPIO_AMD_FCH is not set
