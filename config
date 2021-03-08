@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 5.11.2-gentoo Kernel Configuration
+# Linux/arm 5.11.3-gentoo Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="armv5tel-softfloat-linux-gnueabi-gcc (Gentoo 9.3.0-r2 p4) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -174,6 +174,7 @@ CONFIG_KALLSYMS_BASE_RELATIVE=y
 # CONFIG_BPF_SYSCALL is not set
 # CONFIG_USERFAULTFD is not set
 CONFIG_ARCH_HAS_MEMBARRIER_SYNC_CORE=y
+# CONFIG_KCMP is not set
 CONFIG_RSEQ=y
 # CONFIG_DEBUG_RSEQ is not set
 CONFIG_EMBEDDED=y
@@ -4565,7 +4566,6 @@ CONFIG_ORION_IRQCHIP=y
 # PHY Subsystem
 #
 CONFIG_GENERIC_PHY=y
-# CONFIG_USB_LGM_PHY is not set
 # CONFIG_BCM_KONA_USB2_PHY is not set
 # CONFIG_PHY_CADENCE_TORRENT is not set
 # CONFIG_PHY_CADENCE_DPHY is not set
